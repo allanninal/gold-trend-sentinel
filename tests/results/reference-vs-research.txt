@@ -1,0 +1,9 @@
+tests/reference.py vs the research trade list the rule was gated with (XAUUSD H4, broker history, server time)
+Entries 2023-07-01 to 2026-09-30, bid/ask bars built from M1 bars. Executed 2026-10-21. Broker history and trade lists are not published.
+
+research trades: 58          reference trades (closed): 57
+same entry time and direction: 57 of 57 reference trades
+same exit time: 57 of 57
+
+The one research trade the reference does not list opened at 2026-09-30 20:00 (the last H4 bar of the data) and was still open
+when the data ended; the reference reports closed trades only.

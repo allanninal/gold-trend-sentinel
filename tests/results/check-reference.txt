@@ -1,0 +1,3 @@
+seeds: 20, signals: 1392, trades: 977
+violations: 0
+RESULT: PASS
